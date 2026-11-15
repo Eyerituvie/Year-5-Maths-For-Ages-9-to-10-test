@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f7ff">
+  <title>Year 5 Maths Club</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Year 5 Maths Club home">
+      <span class="brand-mark" aria-hidden="true">＋</span>
+      <span>Maths<span class="brand-light">Club</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#topics">Topics</a>
+      <a href="#challenge">Daily challenge</a>
+    </nav>
+    <a class="header-button" href="#challenge">Let's practise <span aria-hidden="true">→</span></a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="sparkle" aria-hidden="true">✦</span> YOUR YEAR 5 MATHS ADVENTURE</p>
+        <h1 id="hero-title">Big ideas.<br><span>Brilliant maths.</span></h1>
+        <p class="hero-description">Explore, practise and build your confidence — one fun maths challenge at a time.</p>
+        <a class="primary-button" href="#topics">Explore the topics <span aria-hidden="true">↓</span></a>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">☺</span> Made for curious minds in Year 5</div>
+      </div>
+      <div class="hero-art" aria-label="Colourful maths symbols illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="math-tile tile-plus">＋</div>
+        <div class="math-tile tile-divide">÷</div>
+        <div class="math-tile tile-star">✳</div>
+        <div class="math-tile tile-equals">＝</div>
+        <div class="math-card">
+          <div class="card-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+          <span class="card-caption">TODAY'S MOOD</span>
+          <div class="happy-face" aria-hidden="true"><span>• •</span><b>⌣</b></div>
+          <strong>Ready to learn!</strong>
+        </div>
+        <span class="art-sparkle sparkle-a" aria-hidden="true">✦</span>
+        <span class="art-sparkle sparkle-b" aria-hidden="true">✧</span>
+      </div>
+    </section>
+
+    <section class="topics-section" id="topics" aria-labelledby="topics-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PICK YOUR NEXT ADVENTURE</p>
+          <h2 id="topics-title">Maths has many sides</h2>
+        </div>
+        <p>Choose a topic and get those thinking gears turning.</p>
+      </div>
+      <div class="topic-grid">
+        <article class="topic-card fractions">
+          <div class="topic-icon" aria-hidden="true">½</div>
+          <span class="topic-tag">PARTS &amp; PIECES</span>
+          <h3>Fractions</h3>
+          <p>Make sense of equivalent fractions and mixed numbers.</p>
+          <a href="#challenge" aria-label="Try a fractions challenge">Let's explore <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="topic-card multiplication">
+          <div class="topic-icon" aria-hidden="true">×</div>
+          <span class="topic-tag">QUICK THINKING</span>
+          <h3>Multiplication</h3>
+          <p>Build your times-table skills and multiply bigger numbers.</p>
+          <a href="#challenge" aria-label="Try a multiplication challenge">Let's explore <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="topic-card geometry">
+          <div class="topic-icon" aria-hidden="true">△</div>
+          <span class="topic-tag">SHAPES &amp; SPACE</span>
+          <h3>Geometry</h3>
+          <p>Discover angles, shapes and the world around you.</p>
+          <a href="#challenge" aria-label="Try a geometry challenge">Let's explore <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="topic-card decimals">
+          <div class="topic-icon" aria-hidden="true">0.5</div>
+          <span class="topic-tag">NUMBER SENSE</span>
+          <h3>Decimals</h3>
+          <p>Get confident comparing and calculating with decimals.</p>
+          <a href="#challenge" aria-label="Try a decimals challenge">Let's explore <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="challenge-section" id="challenge" aria-labelledby="challenge-title">
+      <div class="challenge-decoration" aria-hidden="true">?</div>
+      <div class="challenge-copy">
+        <p class="eyebrow">A LITTLE BRAIN BOOST</p>
+        <h2 id="challenge-title">Your daily challenge</h2>
+        <p>Have a go — mistakes help our brains grow!</p>
+      </div>
+      <form class="challenge-form" id="challenge-form">
+        <label class="question" for="answer-input"><span id="question-text">What is 7 × 8?</span></label>
+        <div class="answer-row">
+          <input id="answer-input" name="answer" type="number" inputmode="decimal" step="any" placeholder="Your answer" required aria-label="Your answer">
+          <button type="submit">Check it <span aria-hidden="true">→</span></button>
+        </div>
+        <p class="feedback" id="feedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>LEARNING IS THE BEST FOR CHILDREN!</p>
+    <span>Keep being curious. Keep being awesome.</span>
+  </footer>
+</body>
+</html>
